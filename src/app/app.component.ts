@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 
+import { Quote } from './quote'; 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,8 +9,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quote-app';
+
   links = [
-    { path: '/home', icon: 'home', title: 'Home'},
-    { path: '/create', icon: 'create_quote', title: 'Create Quote'}
+    { path: '/home', title: 'Home'},
+    { path: '/quotes', title: 'Quotes'}
   ];
+
 }
