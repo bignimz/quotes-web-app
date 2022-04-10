@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'quote-app';
+  links = [
+    { path: '/home', icon: 'home', title: 'Home'},
+    { path: '/create', icon: 'create_quote', title: 'Create Quote'}
+  ];
 }

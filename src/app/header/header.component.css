@@ -1,0 +1,10 @@
+.header {
+      width: 100%;
+      background-color: teal;
+      color: white;
+      align-items: center;
+}
+
+.logo-img {
+      width: 60px;
+}
