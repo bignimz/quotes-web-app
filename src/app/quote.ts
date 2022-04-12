@@ -1,7 +1,5 @@
 export class Quote {
       showQuote: boolean;
-  completeQuote: Date;
-  completeDate: string | number | Date;
       constructor(
             public id: number, 
             public name: string, 
