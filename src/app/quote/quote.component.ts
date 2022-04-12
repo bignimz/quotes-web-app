@@ -20,9 +20,9 @@ export class QuoteComponent implements OnInit {
   quotes = [
     {
       id: 1,
-      title: 'Quote 1',
-      description: 'Description one',
-      author: 'John Doe',
+      title: 'GREATEST GLORY',
+      description: 'The greatest glory in living lies not in never falling, but in rising every time we fall.',
+      author: 'Nelson Mandela',
       name: 'Emily Short',
       date: '10.04.2022',
       likes: 0,
@@ -30,10 +30,10 @@ export class QuoteComponent implements OnInit {
     },
     {
       id: 2,
-      title: 'Quote 2',
-      description: 'Description Two',
-      author: 'John Doe',
-      date: '10.04.2022',
+      title: 'GETTING STARTED',
+      description: 'The way to get started is to quit talking and begin doing.',
+      author: 'Walt Disney',
+      date: '05.03.2022',
       name: 'Tim Wang',
       likes: 0,
       dislikes: 0
@@ -41,9 +41,9 @@ export class QuoteComponent implements OnInit {
     },
     {
       id: 3,
-      title: 'Quote 3',
-      description: 'Description Three',
-      author: 'John Doe',
+      title: 'MIND THE TIME',
+      description: "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.",
+      author: 'Steve Jobs',
       date: '10.04.2022',
       name: 'Peter Mosh',
       likes: 0,
@@ -51,9 +51,9 @@ export class QuoteComponent implements OnInit {
     },
     {
       id: 4,
-      title: 'Quote 4',
-      description: 'Description Four',
-      author: 'John Doe',
+      title: 'THIS LIFE',
+      description: "If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough.",
+      author: 'Oprah Winfrey',
       name: 'Mike Epps',
       date: '10.04.2022',
       likes: 0,
