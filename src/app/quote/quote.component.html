@@ -3,7 +3,7 @@
   class="text-center q-border mr-4 shadow favorite"
 >
   <blockquote class="blockquote">
-    <p>{{ quote.description }}</p>
+    <p>{{ quote.quote }}</p>
   </blockquote>
   <figcaption class="blockquote-footer">
     Author <cite title="Source Title"> {{ quote.author }}</cite>
@@ -13,13 +13,11 @@
   </figcaption>
   <div class="row quote-row">
     <div class="rating">
-      <fa-icon [icon]="faThumbsUp"></fa-icon
-      ><span class="count-up">{{ quote.likes }}</span> |
-      <fa-icon [icon]="faThumbsDown"></fa-icon
-      ><span class="count-up">{{ quote.dislikes }}</span>
+      <fa-icon [icon]="faThumbsUp"></fa-icon><span class="count-up">0</span> |
+      <fa-icon [icon]="faThumbsDown"></fa-icon><span class="count-up">0</span>
     </div>
     <div class="date">
-      <p>Created: {{ quote.date | date }} ago</p>
+      <p>Created: {{ quote.postedDate | date }} ago</p>
     </div>
   </div>
 </figure>
