@@ -24,7 +24,9 @@ export class QuoteComponent implements OnInit {
       description: 'Description one',
       author: 'John Doe',
       name: 'Emily Short',
-      date: '10.04.2022'
+      date: '10.04.2022',
+      likes: 0,
+      dislikes: 0
     },
     {
       id: 2,
@@ -32,7 +34,10 @@ export class QuoteComponent implements OnInit {
       description: 'Description Two',
       author: 'John Doe',
       date: '10.04.2022',
-      name: 'Tim Wang'
+      name: 'Tim Wang',
+      likes: 0,
+      dislikes: 0
+
     },
     {
       id: 3,
@@ -40,7 +45,9 @@ export class QuoteComponent implements OnInit {
       description: 'Description Three',
       author: 'John Doe',
       date: '10.04.2022',
-      name: 'Peter Mosh'
+      name: 'Peter Mosh',
+      likes: 0,
+      dislikes: 0
     },
     {
       id: 4,
@@ -48,7 +55,9 @@ export class QuoteComponent implements OnInit {
       description: 'Description Four',
       author: 'John Doe',
       name: 'Mike Epps',
-      date: '10.04.2022'
+      date: '10.04.2022',
+      likes: 0,
+      dislikes: 0
     }
   ];
 

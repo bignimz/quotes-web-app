@@ -13,11 +13,13 @@
   </figcaption>
   <div class="row quote-row">
     <div class="rating">
-      <fa-icon [icon]="faThumbsUp"></fa-icon><span class="count-up">100</span> |
-      <fa-icon [icon]="faThumbsDown"></fa-icon><span class="count-up">100</span>
+      <fa-icon [icon]="faThumbsUp"></fa-icon
+      ><span class="count-up">{{ quote.likes }}</span> |
+      <fa-icon [icon]="faThumbsDown"></fa-icon
+      ><span class="count-up">{{ quote.dislikes }}</span>
     </div>
     <div class="date">
-      <p>Created: 10 days ago</p>
+      <p>Created: {{ quote.date }} ago</p>
     </div>
   </div>
 </figure>
