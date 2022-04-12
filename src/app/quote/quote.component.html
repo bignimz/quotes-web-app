@@ -1,12 +1,15 @@
-<figure class="text-center q-border mr-4 shadow favorite">
+<figure
+  *ngFor="let quote of quotes; let i = index"
+  class="text-center q-border mr-4 shadow favorite"
+>
   <blockquote class="blockquote">
-    <p>A well-known quote, contained in a blockquote element.</p>
+    <p>{{ quote.description }}</p>
   </blockquote>
   <figcaption class="blockquote-footer">
-    Someone famous in <cite title="Source Title">Source Title</cite>
+    Author <cite title="Source Title"> {{ quote.author }}</cite>
   </figcaption>
   <figcaption class="blockquote-footer">
-    Posted by: <cite title="Source Title">John Doe</cite>
+    Posted by: <cite title="Source Title">{{ quote.name }}</cite>
   </figcaption>
   <div class="row quote-row">
     <div class="rating">
