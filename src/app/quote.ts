@@ -5,8 +5,10 @@ export class Quote {
             public name: string, 
             public quote: string,
             public author: string,
-            postedDate: Date
+            public postedDate: Date,
+            public likes: number,
+            public dislikes: number
             ) {
-            this.showQuote = true;
+            this.showQuote = false;
       }
 }

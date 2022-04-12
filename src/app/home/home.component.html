@@ -6,7 +6,7 @@
 <div class="quote-results">
   <pre>{{ selectedQuote | json }}</pre>
 </div> -->
-<figure class="text-center q-border">
+<figure class="text-center q-border mr-4 shadow favorite">
   <blockquote class="blockquote">
     <p>A well-known quote, contained in a blockquote element.</p>
   </blockquote>
@@ -16,4 +16,53 @@
   <figcaption class="blockquote-footer">
     Posted by: <cite title="Source Title">John Doe</cite>
   </figcaption>
+  <div class="row quote-row">
+    <div class="rating">
+      <fa-icon [icon]="faThumbsUp"></fa-icon><span class="count-up">100</span> |
+      <fa-icon [icon]="faThumbsDown"></fa-icon><span class="count-up">100</span>
+    </div>
+    <div class="date">
+      <p>Created: 10 days ago</p>
+    </div>
+  </div>
+</figure>
+
+<figure class="text-center q-border mr-4 shadow">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+  <figcaption class="blockquote-footer">
+    Posted by: <cite title="Source Title">John Doe</cite>
+  </figcaption>
+  <div class="row quote-row d-flex">
+    <div class="rating">
+      <i class="fa-solid fa-thumbs-up">like</i>
+    </div>
+    <div class="date">
+      <p>Created: 10 days ago</p>
+    </div>
+  </div>
+</figure>
+
+<figure class="text-center q-border mr-4 shadow">
+  <blockquote class="blockquote">
+    <p>A well-known quote, contained in a blockquote element.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Someone famous in <cite title="Source Title">Source Title</cite>
+  </figcaption>
+  <figcaption class="blockquote-footer">
+    Posted by: <cite title="Source Title">John Doe</cite>
+  </figcaption>
+  <div class="row quote-row d-flex">
+    <div class="rating">
+      <i class="fa-solid fa-thumbs-up">like</i>
+    </div>
+    <div class="date">
+      <p>Created: 10 days ago</p>
+    </div>
+  </div>
 </figure>
