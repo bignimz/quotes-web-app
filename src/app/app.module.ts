@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { QuoteComponent } from './quote/quote.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { QuoteComponent } from './quote/quote.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    QuoteComponent
+    QuoteComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
