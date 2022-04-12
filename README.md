@@ -1,5 +1,26 @@
 # QuoteApp
 
+
+This is a web application for displaying quotes that allows users to create, like, dislike or delete a quote.
+
+## Project Design Preview
+
+![Project design preview](assets/../src/assets/quote-app.png)
+
+## Author
+
+Nimrod Musungu<br>
+Email: contact@nimrodmusungu.com
+
+## Technologies Used
+To achive the desired outcome and meet all the objectives of this project, the following technologies were partially or fully used:
+1. Angular CLI
+2. HTML
+3. CSS
+4. TYPESCRIPT
+5. BOOTSTRAP 5
+6. MARKDOWN
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
 
 ## Development server
