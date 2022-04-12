@@ -22,34 +22,7 @@
   <div class="main-body col-lg-10 col-md-10 col-sm-12 pt-5">
     <div class="container-fluid d-flex flex-wrap justify-content-between">
       <!-- Quote Form -->
-      <form
-        action=""
-        class="form px-3 col-lg-4 col-md-8 col-sm-12"
-        style="max-width: 650px"
-      >
-        <h2 class="create-app-title mb-3">Create a Quote</h2>
-        <input
-          type="text"
-          class="form-control input shadow"
-          placeholder="Enter your name here..."
-          required
-        />
-        <textarea
-          class="form-control input shadow"
-          id="validationTextarea"
-          placeholder="Enter quote here..."
-          required
-        ></textarea>
-        <input
-          type="text"
-          class="form-control input shadow"
-          placeholder="Enter author name here..."
-        />
-        <input type="date" class="form-control input shadow" />
-        <div class="button-area">
-          <button class="btn quote-btn">Add Quote</button>
-        </div>
-      </form>
+      <app-quote-form></app-quote-form>
 
       <!-- Quotes Display -->
       <div class="home col-lg-6 col-md-8 col-sm-12 mx-auto">
