@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsDown } from '@fortawesome/free-solid-svg-icons';
+import { Quote } from '../quote';
 
 @Component({
   selector: 'app-quote',
@@ -12,13 +13,17 @@ export class QuoteComponent implements OnInit {
   faThumbsUp = faThumbsUp;
   faThumbsDown = faThumbsDown;
 
+  // quotes: Quotes[] = [
+  //   new Quote()
+  // ]
+
   quotes = [
     {
       id: 1,
       title: 'Quote 1',
       description: 'Description one',
       author: 'John Doe',
-      
+
       date: '10.04.2022'
     },
     {
