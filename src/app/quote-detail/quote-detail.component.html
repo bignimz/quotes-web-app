@@ -1,0 +1,20 @@
+<figcaption class="blockquote-footer">
+  Author <cite title="Source Title"> {{ quote.author }}</cite>
+</figcaption>
+<div class="blockquote-footer">
+  Posted by: <cite title="Source Title">{{ quote.name }}</cite>
+</div>
+<div class="row quote-row">
+  <div class="rating mb-3">
+    <button (click)="upVote()" class="btn btn-success" id="likes">
+      Like <span class="likes">{{ quote.like }}</span>
+    </button>
+    <button (click)="downVote()" class="btn btn-dark mx-3" id="dislikes">
+      Dislike <span class="likes">{{ quote.dislike }}</span>
+    </button>
+    <button (click)="deleteQuote(true)" class="btn btn-danger">Delete</button>
+  </div>
+  <div class="date">
+    <p>Created: {{ quote.postedDate | date }} ago</p>
+  </div>
+</div>
