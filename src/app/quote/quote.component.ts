@@ -26,7 +26,7 @@ export class QuoteComponent implements OnInit {
     this.quotes.push(quote);
   }
 
-  toggleDetails(index: number){
+  showQuote(index: number){
     this.quotes[index].showQuote = !this.quotes[index].showQuote;
   }
 
