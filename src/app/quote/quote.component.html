@@ -1,23 +1,20 @@
-<figure
-  *ngFor="let quote of quotes; let i = index"
-  class="text-center q-border mr-4 shadow favorite"
->
-  <blockquote class="blockquote">
-    <p>{{ quote.quote }}</p>
-  </blockquote>
-  <figcaption class="blockquote-footer">
-    Author <cite title="Source Title"> {{ quote.author }}</cite>
-  </figcaption>
-  <figcaption class="blockquote-footer">
-    Posted by: <cite title="Source Title">{{ quote.name }}</cite>
-  </figcaption>
-  <div class="row quote-row">
-    <div class="rating">
-      <fa-icon [icon]="faThumbsUp"></fa-icon><span class="count-up">0</span> |
-      <fa-icon [icon]="faThumbsDown"></fa-icon><span class="count-up">0</span>
-    </div>
-    <div class="date">
-      <p>Created: {{ quote.postedDate | date }} ago</p>
+<div class="row">
+  <div class="fluid-container">
+    <div
+      *ngFor="let quote of quotes; let i = index"
+      class="text-center q-border mr-4 my-3 shadow favorite"
+    >
+      <div class="blockquote">
+        <p>{{ quote.quote }}</p>
+      </div>
+      <!-- Button to toggle view more details -->
+      <button (click)="toggleDetails(i)" class="btn btn-success">
+        View Details
+      </button>
+      <app-quote-detail
+        [quote]="quote"
+        (isComplete)="deleteQuote($event, i)"
+      ></app-quote-detail>
     </div>
   </div>
-</figure>
+</div>

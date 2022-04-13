@@ -11,6 +11,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { QuoteComponent } from './quote/quote.component';
 import { DateCountPipe } from './date-count.pipe';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
+import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { QuoteFormComponent } from './quote-form/quote-form.component';
     HomeComponent,
     QuoteComponent,
     DateCountPipe,
-    QuoteFormComponent
+    QuoteFormComponent,
+    QuoteDetailComponent
   ],
   imports: [
     BrowserModule,
